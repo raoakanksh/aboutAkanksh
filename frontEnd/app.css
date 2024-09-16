@@ -240,3 +240,12 @@ h1 {
     text-align: center;
     margin-top: 0.5rem;
 }
+
+footer {
+    background-color: #495057;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

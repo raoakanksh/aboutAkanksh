@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksh Rao - Resume</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+            font-size: 16px;
+            color: #2980b9;
+            cursor: pointer;
+        }
+        .theme-toggle {
+            width: 60px;
+            height: 30px;
+            background: #ccc;
+            border-radius: 15px;
+            position: relative;
+            cursor: pointer;
+        }
+        .theme-toggle::before {
+            content: '🌞';
+            position: absolute;
+            left: 5px;
+            top: 5px;
+        }
+        .resume {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+        .experience-title, .project-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .experience-details, .project-details {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span>Akanksh Rao</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>Back Home
+                        <a href="./index.html"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="resume">
+            <h1>Akanksh Rao</h1>
+            <div class="contact-info">
+                +1-848-667-4479 | rao162@purdue.edu | 
+                <a href="https://linkedin.com/in/akanksh-rao">LinkedIn</a> | 
+                <a href="https://github.com/raoakanksh">GitHub</a>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="experience-item">
+                    <div class="experience-title">Purdue University</div>
+                    <div>Bachelor of Science in Computer Engineering (Software Engineering Concentration)</div>
+                    <div>West Lafayette, IN, USA | Graduation: May 2025</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <div class="experience-title">Software Engineering Intern - Northrop Grumman</div>
+                    <div class="experience-details">May 2024 - Jul 2024 | Baltimore, Maryland, United States</div>
+                    <ul>
+                        <li>Translated complex MATLAB simulation functionalities into Python, improving execution speed and scalability.</li>
+                        <li>Implemented headless mode for simulations, enabling faster runs and easier integration with automated testing.</li>
+                        <li>Collaborated with cross-functional teams to refine simulation models, enhancing accuracy and reliability.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Software Engineering Intern - Northrop Grumman</div>
+                    <div class="experience-details">May 2023 - Aug 2023 | Roy, Utah, United States</div>
+                    <ul>
+                        <li>Developed a robust CRIO application, improving real-time data processing capabilities.</li>
+                        <li>Designed a multi-threaded model reducing system response time from 500ms to 50ms under peak load.</li>
+                        <li>Documented and presented technical solutions, improving team collaboration.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-item">
+                    <div class="project-title">YelpCamp (2024)</div>
+                    <div>Full Stack Web Application</div>
+                    <ul>
+                        <li>Built using HTML, CSS, Node, MongoDB, Mongoose, Express, and EJS.</li>
+                        <li>Features: user authentication, campgrounds management, error validation, reviews.</li>
+                        <li>Implemented RESTful APIs for CRUD operations.</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <div class="project-title">ACME Module Evaluation Tool (2024)</div>
+                    <div>CLI and Web Service</div>
+                    <ul>
+                        <li>Developed in TypeScript for evaluating open-source npm modules.</li>
+                        <li>Implemented parallel processing and automated testing with 20+ test cases.</li>
+                        <li>Integrated with GitHub API to analyze 1000+ repositories.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Full Stack: JavaScript, Node.js, React, Express, MongoDB, HTML, CSS</li>
+                    <li>Python/MatLab: Data Analysis, Simulation, Automation</li>
+                    <li>Cloud & DevOps: AWS, CI/CD, Docker</li>
+                    <li>Other: Git, SQL, TypeScript, EJS, Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Certifications</h2>
+                <ul>
+                    <li>AWS Cloud Practitioner Certification (CLF-C02)</li>
+                    <li>United States Security Clearance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Akanksh Rao. All rights reserved.
+    </footer>
+</body>
+</html>

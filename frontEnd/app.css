@@ -1,0 +1,27 @@
+ .rotating-text {
+            font-weight: bold;
+            font-size: 2em;
+            font-family: 'Poppins', sans-serif; /* Change font to Poppins */
+        }
+
+        /* For the typing effect */
+.typing-effect {
+            border-right: .1em solid;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 3.5s steps(40, end), blink .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+ 
+ .logo {
+    margin-right: 15px; /* Adjust the spacing as needed */
+}

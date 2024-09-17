@@ -224,6 +224,12 @@ h1 {
     height: 150px;
 }
 
+.tech-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds shadow for better visual effect */
+    background-color: #6c757d; /* Adds a lighter background color on hover */
+}
+
 .icon {
     width: 48px;
     height: 48px;

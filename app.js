@@ -1,4 +1,4 @@
-const texts = ["an aspiring Full Stack Developer.", "a 2 time former Software Engineering intern at Northrop Grumman.", "AWS Certified.", "Certified in Into to Generative AI", "an aspiring software engineer."];
+const texts = ["an aspiring Full Stack Developer.", "a 2 time former Software Engineering intern at Northrop Grumman.", "AWS Certified.", "Certified in Intro to Generative AI", "an aspiring software engineer."];
 let count = 0;
 let index = 0;
 let currentText = '';
